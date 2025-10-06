@@ -19,8 +19,5 @@ public class Utilisateur {
 
     }
 
-    public static void main(String[] args) {
-        Utilisateur rakoto = new Utilisateur(1,"rabe","rakoto","rakoto.email.com");
-    }
 
 }
