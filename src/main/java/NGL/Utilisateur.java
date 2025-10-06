@@ -9,17 +9,18 @@ public class Utilisateur {
    final private String nom;
    final private String prenom;
    final private String Email;
-   final private LocalDateTime dateDePublicationUtilisateur;
-   final private confidentialite confidentialite;
 
-    public Utilisateur(int id, String nom, String prenom, String email , LocalDateTime dateDePublicationUtilisateur, confidentialite confidentialite) {
+
+    public Utilisateur(int id, String nom, String prenom, String email ) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
         Email = email;
-        this.dateDePublicationUtilisateur = dateDePublicationUtilisateur;
-        this.confidentialite = confidentialite;
+
     }
 
+    public static void main(String[] args) {
+        Utilisateur rakoto = new Utilisateur(1,"rabe","rakoto","rakoto.email.com");
+    }
 
 }
