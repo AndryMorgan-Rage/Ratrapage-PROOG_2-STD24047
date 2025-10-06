@@ -2,6 +2,8 @@ package NGL;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Utilisateur {
     // attributs
@@ -16,8 +18,8 @@ public class Utilisateur {
         this.nom = nom;
         this.prenom = prenom;
         Email = email;
-
     }
+
 
 
 }

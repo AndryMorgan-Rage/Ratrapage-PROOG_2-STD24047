@@ -22,8 +22,6 @@ public class Publication {
     public void messagePublier (){
         System.out.println(identifiantMessage + texte + publicationDate +  Confidentialite );
     }
-    public  afficherMessage (List<>){
-        return message.stream().map().toList()
-    }
+
 
 }
